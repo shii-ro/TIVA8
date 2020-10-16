@@ -4,24 +4,24 @@ Video is renderized in a ST7920 display via 4-bit parellel mode.
 ![Image](https://user-images.githubusercontent.com/45200489/96282743-803c5e00-0fb1-11eb-9899-8c555bc9b458.jpeg)
 
 # Pin Settings 
-E   PD2
+E     PD2
 
-RW  PD1
+RW    PD1
 
-RS  PD0
+RS    PD0
 
-DB4 PC4
+DB4   PC4
 
-DB5 PC5
+DB5   PC5
 
-DB6 PC6
+DB6   PC6
 
-DB7 PC7
+DB7   PC7
 
 
 # TODO
-* Add suport for a 4x4 matrix keyoard.
-* Add suport for a simple beep.
+* Add support for a 4x4 matrix keyoard.
+* Add support for a simple beep.
 * Optimize display rendering function.
 * Optimize delays.
 * Optimize LCD driver and add 8 bit mode / serial mode.
