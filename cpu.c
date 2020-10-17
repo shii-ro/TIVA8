@@ -10,7 +10,6 @@ struct chip8_cpu_struct c;
 BYTE VIDEO[V_HEIGHT][V_WIDTH];
 BYTE KEY[KEY_SIZE];
 BYTE MEMORY[MEM_SIZE];
-unsigned char new_array[1024];
 int cycles;
 
 static void OC_00E0()
